@@ -15,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C7B85721C41ED1A00462876 /* Arial Rounded Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arial Rounded Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		4C7B85761C41F72E00462876 /* SubwayTicker.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SubwayTicker.ttf; path = ../../../Downloads/subway_ticker/SubwayTicker.ttf; sourceTree = "<group>"; };
 		4CFD36B21C41DB3C00DD38BD /* StockMarketCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockMarketCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFD36B51C41DB3C00DD38BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CFD36B71C41DB3C00DD38BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C7B85731C41ED1F00462876 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4C7B85721C41ED1A00462876 /* Arial Rounded Bold.ttf */,
+				4C7B85761C41F72E00462876 /* SubwayTicker.ttf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4C7B85741C41ED3800462876 /* StockMarketCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD36B51C41DB3C00DD38BD /* AppDelegate.swift */,
+				4CFD36B71C41DB3C00DD38BD /* ViewController.swift */,
+				4CFD36B91C41DB3C00DD38BD /* Main.storyboard */,
+				4CFD36BC1C41DB3C00DD38BD /* Assets.xcassets */,
+				4CFD36BE1C41DB3C00DD38BD /* LaunchScreen.storyboard */,
+				4C7B85751C41ED4C00462876 /* SupportingFiles */,
+			);
+			name = StockMarketCalculator;
+			sourceTree = "<group>";
+		};
+		4C7B85751C41ED4C00462876 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD36C11C41DB3C00DD38BD /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		4CFD36A91C41DB3C00DD38BD = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +86,8 @@
 		4CFD36B41C41DB3C00DD38BD /* StockMarketCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				4CFD36B51C41DB3C00DD38BD /* AppDelegate.swift */,
-				4CFD36B71C41DB3C00DD38BD /* ViewController.swift */,
-				4CFD36B91C41DB3C00DD38BD /* Main.storyboard */,
-				4CFD36BC1C41DB3C00DD38BD /* Assets.xcassets */,
-				4CFD36BE1C41DB3C00DD38BD /* LaunchScreen.storyboard */,
-				4CFD36C11C41DB3C00DD38BD /* Info.plist */,
+				4C7B85731C41ED1F00462876 /* Assets */,
+				4C7B85741C41ED3800462876 /* StockMarketCalculator */,
 			);
 			path = StockMarketCalculator;
 			sourceTree = "<group>";
@@ -285,6 +313,7 @@
 				4CFD36C61C41DB3C00DD38BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
